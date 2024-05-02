@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.optimaldistributionrelationalsystem.R;
 import com.android.optimaldistributionrelationalsystem.databinding.ActivityOrderToDayBinding;
-import com.android.optimaldistributionrelationalsystem.nada.DemoOrderActivity;
+import com.android.optimaldistributionrelationalsystem.Order.DemoOrderActivity;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.android.optimaldistributionrelationalsystem.alaa.RatingActivity;
+import com.android.optimaldistributionrelationalsystem.Rating.RatingActivity;
 import com.android.optimaldistributionrelationalsystem.databinding.ActivityStatusBinding;
 
 public class StatusActivity extends AppCompatActivity {

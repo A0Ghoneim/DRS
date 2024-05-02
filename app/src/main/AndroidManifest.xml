@@ -13,21 +13,21 @@
         android:theme="@style/Theme.OptimalDistributionRelationalsystem"
         tools:targetApi="31">
         <activity
-            android:name=".aya.Store_signin"
+            android:name=".StoreSignin.Store_signin"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".alaa.FinishedActivity"
+            android:name=".Rating.FinishedActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".alaa.RatingActivity"
+            android:name=".Rating.RatingActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -41,7 +41,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".amal.Warehouse_signin"
+            android:name=".WarehouseLogin.Warehouse_signin"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -55,77 +55,77 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".aya.StoreManagerActivity"
+            android:name=".StoreSignin.StoreManagerActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".aya.SelectServecActivity"
+            android:name=".StoreSignin.SelectServecActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".aya.AddActivity"
+            android:name=".StoreSignin.AddActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".aya.trackActivity"
+            android:name=".StoreSignin.trackActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".amal.LoginWareHouseActivity"
+            android:name=".WarehouseLogin.LoginWareHouseActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".amal.OrderActivity"
+            android:name=".WarehouseLogin.OrderActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".sara.WarehouseMangerActivity"
+            android:name=".WarehouseManager.WarehouseMangerActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".sara.OrderActivity"
+            android:name=".WarehouseManager.OrderActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".sara.DriversActivity"
+            android:name=".WarehouseManager.DriversActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".nada.RoadMapActivity"
+            android:name=".Order.RoadMapActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".nada.DemoOrderActivity"
+            android:name=".Order.DemoOrderActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -139,35 +139,35 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".eman.SignupActivity"
+            android:name=".DriverSignup.SignupActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".alaa.RatingActivity"
+            android:name=".Rating.RatingActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".alaa.FinishedActivity"
+            android:name=".Rating.FinishedActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".eman.EmanActivity"
+            android:name=".DriverSignup.DriverActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".eman.MapsActivity"
+            android:name=".DriverSignup.MapsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

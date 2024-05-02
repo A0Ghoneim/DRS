@@ -7,28 +7,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.android.optimaldistributionrelationalsystem.amal.LoginWareHouseActivity;
-import com.android.optimaldistributionrelationalsystem.amal.Warehouse_signin;
-import com.android.optimaldistributionrelationalsystem.aya.StoreManagerActivity;
-import com.android.optimaldistributionrelationalsystem.aya.Store_signin;
-import com.android.optimaldistributionrelationalsystem.data.Product;
-import com.android.optimaldistributionrelationalsystem.data.Store;
-import com.android.optimaldistributionrelationalsystem.data.Warehouse;
+import com.android.optimaldistributionrelationalsystem.WarehouseLogin.Warehouse_signin;
+import com.android.optimaldistributionrelationalsystem.StoreSignin.Store_signin;
 import com.android.optimaldistributionrelationalsystem.databinding.ActivityMainBinding;
-import com.android.optimaldistributionrelationalsystem.eman.EmanActivity;
+import com.android.optimaldistributionrelationalsystem.DriverSignup.DriverActivity;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-import java.util.ArrayList;
-
 
 
 public class MainActivity extends AppCompatActivity {
@@ -76,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                // myRef.child("store").child("id").child("halalmode").setValue("nice");
                 Intent intent = new Intent();
-                intent.setClass(MainActivity.this, EmanActivity.class);
+                intent.setClass(MainActivity.this, DriverActivity.class);
                 startActivity(intent);
             }
         });

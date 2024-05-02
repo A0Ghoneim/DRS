@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
     android:background="@color/white"
-    tools:context=".sara.OrderActivity">
+    tools:context=".WarehouseManager.OrderActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

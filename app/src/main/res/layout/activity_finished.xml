@@ -6,7 +6,7 @@
     android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="#ffffff"
-    tools:context=".alaa.FinishedActivity">
+    tools:context=".Rating.FinishedActivity">
 
     <ImageView
         android:id="@+id/star"

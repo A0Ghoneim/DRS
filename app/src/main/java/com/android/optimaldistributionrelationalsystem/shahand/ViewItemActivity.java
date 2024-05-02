@@ -5,22 +5,16 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 
-import com.android.optimaldistributionrelationalsystem.R;
 import com.android.optimaldistributionrelationalsystem.data.Order;
 import com.android.optimaldistributionrelationalsystem.data.Product;
 //import com.android.optimaldistributionrelationalsystem.data.Store;
 import com.android.optimaldistributionrelationalsystem.data.Store;
-import com.android.optimaldistributionrelationalsystem.data.Warehouse;
-import com.android.optimaldistributionrelationalsystem.databinding.ActivityDemorderBinding;
 import com.android.optimaldistributionrelationalsystem.databinding.ActivityViewItemBinding;
-import com.android.optimaldistributionrelationalsystem.sara.WarehouseMangerActivity;
-import com.android.optimaldistributionrelationalsystem.sara.productAdapters;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -35,7 +29,6 @@ import com.google.firebase.storage.StorageReference;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Objects;
 
 public class ViewItemActivity extends AppCompatActivity {
