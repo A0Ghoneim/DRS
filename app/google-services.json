@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "700025297336",
+    "firebase_url": "https://mygrad-58c63-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mygrad-58c63",
+    "storage_bucket": "mygrad-58c63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700025297336:android:11a39132a972c83b49d74d",
+        "android_client_info": {
+          "package_name": "com.android.optimaldistributionrelationalsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700025297336-5h65ot4ndbt6o9t1as0i5a312o58p8fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtDgt_8mPaJfypQNgjbC1xuMGZImCkOqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700025297336-5h65ot4ndbt6o9t1as0i5a312o58p8fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700025297336:android:ba3c1e907968b78949d74d",
+        "android_client_info": {
+          "package_name": "com.example.mygrad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700025297336-5h65ot4ndbt6o9t1as0i5a312o58p8fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtDgt_8mPaJfypQNgjbC1xuMGZImCkOqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700025297336-5h65ot4ndbt6o9t1as0i5a312o58p8fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

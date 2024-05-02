@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".alaa.RatingActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="@string/rate_our_service"
+        android:textColor="#439A97"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/r_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/lolgo"
+        android:scaleType="centerInside"
+        android:src="@drawable/rimage"
+        tools:ignore="ImageContrastCheck" />
+
+    <RatingBar
+        android:id="@+id/rate_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/lolgo"
+        android:numStars="5"
+        android:progressTint="#E38D0E"
+        android:rating="4.5"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/rate_rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:text="@string/good"
+        android:textColor="#439A97"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/issue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/do_you_have_any_issue"
+        android:textColor="#439A97"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints=""
+        android:background="@drawable/background_border"
+        android:textColor="@color/black"
+        android:hint="@string/comment"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/submite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_border"
+        android:backgroundTint="@color/teal_700"
+        android:text="submit"
+        android:textSize="30sp" />
+
+</LinearLayout>

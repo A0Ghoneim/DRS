@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="30dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/productimage"
+                android:layout_width="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content"
+                android:src="@drawable/airpods"/>
+            <TextView
+                android:id="@+id/productname"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginVertical="10dp"
+                android:layout_height="wrap_content"
+                android:text="Airpods"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/productdesc"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginVertical="10dp"
+                android:layout_height="wrap_content"
+                android:text="it contain a microphone that filters out backgroud noise as well as built-in accelerometers and optical sensors capable of detecting taps and pinches"
+
+                />
+            <TextView
+                android:id="@+id/productprice"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginVertical="10dp"
+                android:layout_height="wrap_content"
+                android:text="800$"
+                />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

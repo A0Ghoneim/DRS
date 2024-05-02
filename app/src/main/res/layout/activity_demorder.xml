@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".nada.DemoOrderActivity">
+
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orders Demo.."
+        android:fontFamily="serif"
+        android:textColor="#0E8388"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:shadowColor="#CBEDD5"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="40"
+        android:padding="15dp"
+        android:layout_margin="1dp"
+android:gravity="center"
+        />
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#439A97"
+                android:padding="20sp"
+                android:orientation="horizontal"
+                android:layout_marginTop="0dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/txtordersid"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:text="Orders ID"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+
+                    />
+                <TextView
+                    android:id="@+id/txtstorename"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:text="Store Name"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txtquan"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:text="Quantity"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txtSale"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:text="Sale Price"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    />
+                <TextView
+                    android:id="@+id/txtaction"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:text="Action"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    />
+            </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lstItems"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eee"
+                android:scrollbars="horizontal|vertical" />
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
